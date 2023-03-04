@@ -6,7 +6,7 @@ import AboutMe from "./component/aboutMe/AboutMe";
 
 function App() {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col bg-white">
             <NavBar />
             <HomeContainer />
             <AboutMe />

@@ -1,16 +1,16 @@
 import React from "react";
-import MailSVG from "../../assets/svg/MailSVG";
+import MailSVG from "../../assets/svg/icons/MailSVG";
 
 const ContactMeButton = () => {
     return (
         <div>
-            <MailSVG />
+            {/* <MailSVG /> */}
             <button
                 className="h-[57px] px-[54px] 
                     font-semibold 
                     rounded-md  
-                    bg-hero-pink 
-                    text-black 
+                    bg-black 
+                    text-white 
                     drop-shadow-md 
                     hover:bg-sky-700 
                     active:bg-violet-700"
