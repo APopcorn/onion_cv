@@ -4,7 +4,43 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                "hero-pattern": "url('/src/assets/TestFormatsCut.png')",
+                "home-all":
+                    "url('/src/assets/svg/background/BackgroundWave.svg'), url('/src/assets/TestFormats.png'), url('/src/assets/svg/background/BackgroundBubble.svg'), url('/src/assets/svg/background/FadingCircleSVG.svg')",
+
+                "hero-personal-photo": "url('/src/assets/TestFormats.png')",
+
+                "hero-bubble":
+                    "url('/src/assets/svg/background/BackgroundBubble.svg')",
+                "hero-waves":
+                    "url('/src/assets/svg/background/BackgroundWave.svg')",
+                "hero-fading-circle":
+                    "url('/src/assets/svg/background/FadingCircleSVG.svg')",
+
+                "about-all":
+                    "url('/src/assets/svg/background/AboutTopWave.svg'), url('/src/assets/svg/background/aboutMe/AboutBWave.svg')",
+
+                "about-wave-top":
+                    "url('/src/assets/svg/background/AboutTopWave.svg')",
+                "about-wave-bottom":
+                    "url('/src/assets/svg/background/aboutMe/AboutBWave.svg')",
+
+                "projects-all":
+                    "url('/src/assets/svg/background/projects/ProjectsWave.svg'), url('/src/assets/easterEgg.png')",
+
+                "projects-wave-top":
+                    "url('/src/assets/svg/background/projects/ProjectsWave.svg')",
+                "projects-easter": "url('/src/assets/easterEgg.png')",
+            },
+            backgroundPosition: {
+                "move-hero":
+                    "bottom, bottom left, top right 38%, bottom 40% left 40%",
+                "move-about": "top, bottom",
+                "move-projects": "top, center bottom -1%",
+            },
+            backgroundSize: {
+                "fit-hero": "contain, contain, auto, auto",
+                "fit-about": "contain, contain",
+                "fit-projects": "contain, 10rem",
             },
             colors: {
                 "hero-white": "#FFFFFF",
@@ -14,6 +50,9 @@ module.exports = {
                 "navbar-black": "#000000",
                 "navbar-blue": "#98CCEF",
                 "hero-text": "#565656",
+                "fade-t": "rgba(255, 117, 73, 1)",
+                "fade-b": "rgba(255, 117, 73, 0.08)",
+                "projects-end": "#C06767",
             },
             fontFamily: {
                 "tauri-hero": ["Tauri"],

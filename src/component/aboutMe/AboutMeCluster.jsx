@@ -5,11 +5,13 @@ import Other from "./smallAbout/Other";
 
 const AboutMeCluster = () => {
     return (
-        <div className="flex">
+        <div className="grid gap-4 grid-cols-3 grid-rows-1">
             <ProgramingLanguages />
             <Work />
-            <Academic />
-            <Other />
+            <div>
+                <Academic />
+                <Other />
+            </div>
         </div>
     );
 };

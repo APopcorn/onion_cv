@@ -9,7 +9,7 @@ const GarlicSVG = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
         >
-            <g clip-path="url(#clip0_507_50)">
+            <g clipPath="url(#clip0_507_50)">
                 <path
                     d="M0 16.5229C0 15.6967 0.217137 14.8849 0.62972 14.1687L7.43163 2.36096L8.19169 55.6509L1.32996 50.9894C0.497965 50.4241 0 49.4844 0 48.4797V16.5229Z"
                     fill="#DEDDD9"
@@ -61,12 +61,12 @@ const GarlicSVG = () => {
                 <path
                     d="M34.2869 26.2233V25.5488H33.5268V26.2233H34.2869ZM34.2869 26.2233V26.9822H35.807V26.2233M34.2869 26.2233H35.807M35.807 26.2233V25.5488H36.3981V26.2233H35.807ZM29.8954 21.4171H30.571V20.7426H33.4424V23.4408H32.8512V21.4171H31.2467V23.4408H30.74V22.0917H29.9799H29.8954V21.4171ZM31.3311 23.5251H32.7668V24.1997H31.3311V23.6094V23.5251ZM36.3137 23.5251V20.9112H38.9316V21.5857H39.6917V22.2603H38.9316V23.5251H38.3405C38.3405 22.9067 38.3405 21.6532 38.3405 21.5857H36.9893V23.5251H36.3137ZM38.256 24.284H37.0737V23.6094H38.256V24.284Z"
                     stroke="white"
-                    stroke-width="0.1"
+                    strokeWidth="0.1"
                 />
                 <path
                     d="M3.12469 9.86536V50.8446V51.4187C3.12469 51.5969 3.15348 51.774 3.20994 51.9432L3.2384 52.0285C3.2747 52.1371 3.33585 52.2359 3.41701 52.317C3.44726 52.3472 3.48043 52.3744 3.51602 52.398L3.58917 52.4467L3.71585 52.531"
                     stroke="#FEFEFC"
-                    stroke-width="0.1"
+                    strokeWidth="0.1"
                 />
                 <g filter="url(#filter0_f_507_50)">
                     <path
@@ -89,9 +89,9 @@ const GarlicSVG = () => {
                     width="14.507"
                     height="3.74087"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                 >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                         mode="normal"
                         in="SourceGraphic"
@@ -110,9 +110,9 @@ const GarlicSVG = () => {
                     width="19.4741"
                     height="1.88381"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                 >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                         mode="normal"
                         in="SourceGraphic"

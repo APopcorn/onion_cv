@@ -1,13 +1,24 @@
+import { forwardRef } from "react";
 import AboutMeBig from "./AboutMeBig";
 import AboutMeCluster from "./AboutMeCluster";
 
-const AboutMe = () => {
+const AboutMe = (props, ref) => {
     return (
-        <div className="bg-black w-[100%] flex flex-col items-center">
+        <div
+            ref={ref}
+            className="
+                bg-about-all 
+                bg-move-about 
+                bg-contain 
+                bg-no-repeat 
+                bg-white 
+                w-[100%] h-[200vh] flex flex-col items-center"
+        >
+            <h1 className="text-[5rem]">About Me</h1>
             <AboutMeBig />
             <AboutMeCluster />
         </div>
     );
 };
 
-export default AboutMe;
+export default forwardRef(AboutMe);

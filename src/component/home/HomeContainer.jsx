@@ -1,50 +1,26 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import LinkGit from "./linkcomponets/LinkGit";
 import LinkCV from "./linkcomponets/LinkCV";
 import LinkLinkedIn from "./linkcomponets/LinkLinkedIn";
-import BackgroundWave from "../../assets/svg/background/BackgroundWave";
-import BackgroundBubble from "../../assets/svg/background/BackgroundBubble";
-import FadingCircleSVG from "../../assets/svg/background/FadingCircleSVG";
 
-const HomeContainer = () => {
+const HomeContainer = (props, ref) => {
     return (
-        <div className="bg-hero-white w-[100%] overflow-hidden">
-            <div className="bg-hero-pattern bg-no-repeat bg-contain w-[100%] h-[55rem]">
-                <div className="absolute top-[103px] left-[807px]">
-                    <BackgroundBubble />
-                </div>
-                <div className="absolute top-[263px]">
-                    <BackgroundWave />
-                </div>
-                <div className="absolute top-[443px] left-[607px]">
-                    <FadingCircleSVG />
-                </div>
-
-                <div className="absolute flex flex-wrap justify-evenly top-[716px] left-[478px] w-[60rem]">
+        <div ref={ref} className="bg-hero-white overflow-hidden">
+            <div className="bg-home-all bg-no-repeat bg-fit-hero bg-move-hero w-[100%] h-[100svh]">
+                <div className="absolute flex flex-wrap justify-evenly top-[816px] left-[478px] w-[60rem]">
                     <LinkGit />
                     <LinkCV />
                     <LinkLinkedIn />
                 </div>
 
-                <div
-                    className="
-                    relative 
-                    text-hero-text 
-                    text-[6rem] 
-                    whitespace-nowrap
-                    font-mono 
-                    "
-                >
-                    {/* <div className="absolute top-[116px] left-[678px]">
-                        Hello World!
-                    </div> */}
-                    <div className="absolute top-[116px] left-[678px]">
+                <div className="select-none relative left-[210px] text-hero-text  whitespace-nowrap font-mono">
+                    <div className="absolute top-[146px] left-[678px] text-[4rem]">
                         Welcome
                     </div>
-                    <div className="absolute top-[200px] left-[632px]">
+                    <div className="absolute top-[200px] left-[632px] text-[6rem]">
                         I'm Ernst Padron
                     </div>
-                    <div className="absolute top-[286px] left-[744px]">
+                    <div className="absolute top-[286px] left-[744px] text-[6rem]">
                         Programming
                     </div>
                 </div>
@@ -53,4 +29,4 @@ const HomeContainer = () => {
     );
 };
 
-export default HomeContainer;
+export default forwardRef(HomeContainer);
