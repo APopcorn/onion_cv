@@ -6,14 +6,23 @@ const ContactMeButton = () => {
         <div>
             {/* <MailSVG /> */}
             <button
-                className="h-[57px] px-[54px] 
+                className="
+                    h-[57px] 
+                    px-[54px]
+
+                    duration-300 
+
                     font-semibold 
                     rounded-md  
                     bg-black 
                     text-white 
                     drop-shadow-md 
-                    hover:bg-sky-700 
-                    active:bg-violet-700"
+                    hover:bg-emerald-100
+                    hover:text-black
+                    active:duration-30
+                    active:bg-white
+                    active:text-black
+                    "
                 type="submit"
             >
                 Contact Me

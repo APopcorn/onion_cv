@@ -60,26 +60,82 @@ const NavBar = (props, ref) => {
             </div>
 
             <ul className="flex flex-row justify-evenly	w-[100%] text-black">
-                <li
-                    className={`${
-                        homeVisible ? "bg-emerald-100" : ""
-                    }  hover:bg-sky-700 ease-out duration-300`}
-                >
-                    <button onClick={homeClick}>Home</button>
+                <li>
+                    <button
+                        className={`${homeVisible ? "after:w-[100%]" : ""}   
+                        relative 
+                        ease-out 
+                        hover:text-slate-800
+
+                        after:content-[""] 
+                        after:bottom-[-3px] 
+                        after:left-0 
+                        after:bg-emerald-100
+                        after:hover:bg-emerald-200
+                        after:absolute 
+                        after:h-[6px] 
+                        after:w-[0px]
+                        after:rounded-sm 
+                        after:duration-300 
+
+                        text-[1.25rem]
+                        `}
+                        onClick={homeClick}
+                    >
+                        Home
+                    </button>
                 </li>
-                <li
-                    className={`${
-                        aboutMeVisible ? "bg-emerald-100" : ""
-                    }  hover:bg-sky-700 ease-out duration-300`}
-                >
-                    <button onClick={aboutMeClick}>About Me</button>
+                <li>
+                    <button
+                        className={`${aboutMeVisible ? "after:w-[100%]" : ""}   
+                        relative 
+                        ease-out 
+                        hover:text-slate-800
+
+                        after:content-[""] 
+                        after:bottom-[-3px] 
+                        after:left-0 
+                        after:bg-emerald-100
+                        after:hover:bg-emerald-200
+                        after:absolute 
+                        after:h-[6px] 
+                        after:w-[0px]
+                        after:rounded-sm 
+                        after:duration-300 
+
+                        text-[1.25rem]
+                        `}
+                        onClick={aboutMeClick}
+                    >
+                        About Me
+                    </button>
                 </li>
-                <li
-                    className={`${
-                        projectsVisible ? "bg-emerald-100" : ""
-                    }  hover:bg-sky-700 ease-out duration-300`}
-                >
-                    <button onClick={projectsClick}>Projects</button>
+                <li>
+                    <button
+                        className={`${
+                            projectsVisible ? "after:w-[100%]" : ""
+                        }   
+                        relative 
+                        ease-out
+                        hover:text-slate-800
+
+                        after:content-[""] 
+                        after:bottom-[-3px] 
+                        after:left-0 
+                        after:bg-emerald-100
+                        after:hover:bg-emerald-200
+                        after:absolute 
+                        after:h-[6px] 
+                        after:w-[0px]
+                        after:rounded-sm 
+                        after:duration-300 
+
+                        text-[1.25rem]
+                        `}
+                        onClick={projectsClick}
+                    >
+                        Projects
+                    </button>
                 </li>
             </ul>
             <div className="p-2">

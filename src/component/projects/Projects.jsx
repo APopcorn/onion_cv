@@ -17,7 +17,7 @@ const Projects = (props, ref) => {
                 w-[100%] h-[180vh] 
                 flex flex-col items-center"
         >
-            <h1 className="text-[5rem]">Projects</h1>
+            <h1 className="select-none text-[5rem]">Projects</h1>
             <ProjectShowcase />
             <SmallProjectsContainer />
         </div>

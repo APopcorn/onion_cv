@@ -14,7 +14,7 @@ const AboutMe = (props, ref) => {
                 bg-white 
                 w-[100%] h-[200vh] flex flex-col items-center"
         >
-            <h1 className="text-[5rem]">About Me</h1>
+            <h1 className="select-none text-[5rem]">About Me</h1>
             <AboutMeBig />
             <AboutMeCluster />
         </div>
