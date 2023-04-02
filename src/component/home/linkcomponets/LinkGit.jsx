@@ -2,13 +2,27 @@ import GithubSVG from "../../../assets/svg/icons/GithubSVG";
 
 const LinkGit = () => {
     return (
-        <button
-            className="text-[1.5rem] flex items-center gap-x-4 h-[57px] px-[54px] font-semibold rounded-md bg-hero-orange text-black drop-shadow-md"
-            type="submit"
-        >
-            <GithubSVG />
-            APopcorn
-        </button>
+        <a href="https://github.com/APopcorn" target="_blank" rel="noreferrer">
+            <button
+                className="
+                    text-[1.5rem]  
+                    text-white 
+                    
+                    grid 
+                    grid-rows-none
+                    grid-cols-link-bottom
+                    p-2
+                    rounded-[0.5rem]
+                    
+                    bg-hero-orange 
+                    drop-shadow-md
+                    "
+                type="submit"
+            >
+                <GithubSVG />
+                <div>APopcorn</div>
+            </button>
+        </a>
     );
 };
 

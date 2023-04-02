@@ -18,10 +18,10 @@ const HomeContainer = (props, ref) => {
                         Welcome
                     </div>
                     <div className="absolute top-[200px] left-[632px] text-[6rem]">
-                        I'm Ernst Padron
+                        I'm Ernst Padron,
                     </div>
                     <div className="absolute top-[286px] left-[744px] text-[6rem]">
-                        Programming
+                        Programmer
                     </div>
                 </div>
             </div>

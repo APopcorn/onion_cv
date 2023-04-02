@@ -1,7 +1,7 @@
 const GithubSVG = () => {
     return (
         <svg
-            className="w-[50px]"
+            className="w-[2.75rem] h-[auto]"
             width="75"
             height="75"
             viewBox="0 0 75 75"

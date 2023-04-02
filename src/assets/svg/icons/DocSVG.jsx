@@ -1,7 +1,7 @@
 const DocSVG = () => {
     return (
         <svg
-            className="w-[50px]"
+            className="w-[2.75rem] h-[auto]"
             width="65"
             height="66"
             viewBox="0 0 65 66"

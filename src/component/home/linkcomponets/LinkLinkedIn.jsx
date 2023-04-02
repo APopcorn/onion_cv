@@ -3,13 +3,31 @@ import LinkedInSVG from "../../../assets/svg/icons/LinkedInSVG";
 
 const LinkLinkedIn = () => {
     return (
-        <button
-            className="text-[1.5rem] flex items-center gap-x-4 h-[57px] px-[54px] font-semibold rounded-md bg-hero-orange text-black drop-shadow-md"
-            type="submit"
+        <a
+            href="https://www.linkedin.com/in/ernst-padron-7057a7226/"
+            target="_blank"
+            rel="noreferrer"
         >
-            <LinkedInSVG />
-            Ernst Padron
-        </button>
+            <button
+                className="
+                    text-[1.5rem]  
+                    text-white 
+                    
+                    grid 
+                    grid-rows-none
+                    grid-cols-link-bottom
+                    p-2
+                    rounded-[0.5rem]
+                    
+                    bg-hero-orange 
+                    drop-shadow-md
+                    "
+                type="submit"
+            >
+                <LinkedInSVG />
+                <div>Ernst Padron</div>
+            </button>
+        </a>
     );
 };
 

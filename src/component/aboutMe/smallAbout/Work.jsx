@@ -7,7 +7,7 @@ const Work = () => {
             from-fade-t 
             to-fade-b
             text-hero-text 
-            h-[30rem] w-[12rem] m-8"
+            "
         >
             <div>Work</div>
         </div>

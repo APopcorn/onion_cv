@@ -8,7 +8,9 @@ const Academic = () => {
             bg-gradient-to-b 
             from-fade-t 
             to-fade-b
-            text-hero-text h-[10rem] w-[12rem] m-8"
+            text-hero-text
+            h-[50%]
+            "
         >
             <div>Academic</div>
         </div>

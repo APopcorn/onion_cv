@@ -9,9 +9,9 @@ const ProgramingLanguages = () => {
             from-fade-t 
             to-fade-b 
             text-hero-text 
-            h-[30rem] w-[12rem] m-8"
+            "
         >
-            <div>Programing Languages</div>
+            <div>Programming Languages</div>
         </div>
     );
 };

@@ -12,7 +12,7 @@ const AboutMe = (props, ref) => {
                 bg-contain 
                 bg-no-repeat 
                 bg-white 
-                w-[100%] h-[200vh] flex flex-col items-center"
+                w-[100%] h-[198vh] flex flex-col items-center"
         >
             <h1 className="select-none text-[5rem]">About Me</h1>
             <AboutMeBig />

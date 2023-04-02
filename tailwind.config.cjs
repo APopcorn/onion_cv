@@ -34,7 +34,7 @@ module.exports = {
             backgroundPosition: {
                 "move-hero":
                     "bottom, bottom left, top right 38%, bottom 40% left 40%",
-                "move-about": "top, bottom",
+                "move-about": "top, center bottom -1%",
                 "move-projects": "top, center bottom -1%",
             },
             backgroundSize: {
@@ -56,6 +56,9 @@ module.exports = {
             },
             fontFamily: {
                 "tauri-hero": ["Tauri"],
+            },
+            gridTemplateColumns: {
+                "link-bottom": "auto 10rem",
             },
         },
     },

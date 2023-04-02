@@ -6,9 +6,11 @@ const AboutMeBig = () => {
             from-fade-t 
             to-fade-b 
             text-hero-text 
-            w-[80%] 
+            w-[72%] 
             h-[40rem] 
-            m-8"
+            m-8
+            rounded-[1.5rem]            
+            "
         >
             <p>
                 I'm a student at the Faculty of Engineering (LTH), Lund
