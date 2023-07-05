@@ -12,9 +12,12 @@ const AboutMeBig = () => {
             rounded-[1.5rem]            
             "
         >
-            <p>
-                I'm a student at the Faculty of Engineering (LTH), Lund
-                University studying Computer science. ...
+            <p 
+                className="
+                
+                "
+            >
+            I’m a Current_year - year_started year student at the Faculty of Engineering (LTH), Lund University studying Computer science. 
             </p>
         </div>
     );

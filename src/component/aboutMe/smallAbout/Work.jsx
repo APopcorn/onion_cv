@@ -9,7 +9,10 @@ const Work = () => {
             text-hero-text 
             "
         >
-            <div>Work</div>
+            <div>
+                Work
+                <div className="bg-company-myloc-construction">test</div>
+            </div>
         </div>
     );
 };

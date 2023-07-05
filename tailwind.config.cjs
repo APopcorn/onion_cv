@@ -30,6 +30,12 @@ module.exports = {
                 "projects-wave-top":
                     "url('/src/assets/svg/background/projects/ProjectsWave.svg')",
                 "projects-easter": "url('/src/assets/easterEgg.png')",
+                
+                // company's 
+                "company-myloc-construction": "url('/src/assets/svg/aboutMe/MylocConstruction.svg')",
+                "projects-axis": "url('/src/assets/svg/aboutMe/MylocConstruction.svg')",
+                "projects-kjell&company": "url('/src/assets/svg/aboutMe/MylocConstruction.svg')",
+                
             },
             backgroundPosition: {
                 "move-hero":
