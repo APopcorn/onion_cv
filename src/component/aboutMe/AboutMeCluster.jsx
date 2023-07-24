@@ -1,7 +1,6 @@
-import ProgramingLanguages from "./smallAbout/ProgramingLanguages";
+import ProgrammingLanguages from "./smallAbout/ProgrammingLanguages";
 import Work from "./smallAbout/Work";
 import Academic from "./smallAbout/Academic";
-import Other from "./smallAbout/Other";
 
 const AboutMeCluster = () => {
     return (
@@ -9,18 +8,15 @@ const AboutMeCluster = () => {
             className="
                 grid 
                 gap-4 
-                grid-cols-3 
-                grid-rows-1 
+                grid-cols-3
+                grid-rows-2 
                 w-[72%]
-                h-[30rem]
+                h-[55rem]
                 "
         >
-            <ProgramingLanguages />
             <Work />
-            <div>
-                <Academic />
-                <Other />
-            </div>
+            <ProgrammingLanguages />
+            <Academic />
         </div>
     );
 };

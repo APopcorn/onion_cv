@@ -5,36 +5,42 @@ module.exports = {
         extend: {
             backgroundImage: {
                 "home-all":
-                    "url('/src/assets/svg/background/BackgroundWave.svg'), url('/src/assets/TestFormats.png'), url('/src/assets/svg/background/BackgroundBubble.svg'), url('/src/assets/svg/background/FadingCircleSVG.svg')",
+                    "url('/src/assets/svg/background/home/BackgroundWave.svg'), url('/src/assets/TestFormats.png'), url('/src/assets/svg/background/home/BackgroundBubble.svg'), url('/src/assets/svg/background/home/FadingCircleSVG.svg')",
 
                 "hero-personal-photo": "url('/src/assets/TestFormats.png')",
 
                 "hero-bubble":
-                    "url('/src/assets/svg/background/BackgroundBubble.svg')",
+                    "url('/src/assets/svg/background/home/BackgroundBubble.svg')",
                 "hero-waves":
-                    "url('/src/assets/svg/background/BackgroundWave.svg')",
+                    "url('/src/assets/svg/background/home/BackgroundWave.svg')",
                 "hero-fading-circle":
-                    "url('/src/assets/svg/background/FadingCircleSVG.svg')",
+                    "url('/src/assets/svg/background/home/FadingCircleSVG.svg')",
 
                 "about-all":
-                    "url('/src/assets/svg/background/AboutTopWave.svg'), url('/src/assets/svg/background/aboutMe/AboutBWave.svg')",
+                    "url('/src/assets/svg/background/aboutMe/AboutTopWave.svg'), url('/src/assets/svg/background/aboutMe/AboutBWave.svg')",
 
                 "about-wave-top":
-                    "url('/src/assets/svg/background/AboutTopWave.svg')",
+                    "url('/src/assets/svg/background/aboutMe/AboutTopWave.svg')",
                 "about-wave-bottom":
                     "url('/src/assets/svg/background/aboutMe/AboutBWave.svg')",
 
                 "projects-all":
-                    "url('/src/assets/svg/background/projects/ProjectsWave.svg'), url('/src/assets/easterEgg.png')",
+                    "url('/src/assets/svg/background/projects/ProjectsWave.svg'), url('/src/assets/svg/background/projects/ProjectsBWave.svg')",
 
                 "projects-wave-top":
                     "url('/src/assets/svg/background/projects/ProjectsWave.svg')",
+                "projects-wave-bottom":
+                    "url('/src/assets/svg/background/projects/ProjectsBWave.svg')",
                 "projects-easter": "url('/src/assets/easterEgg.png')",
                 
                 // company's 
-                "company-myloc-construction": "url('/src/assets/svg/aboutMe/MylocConstruction.svg')",
-                "projects-axis": "url('/src/assets/svg/aboutMe/MylocConstruction.svg')",
-                "projects-kjell&company": "url('/src/assets/svg/aboutMe/MylocConstruction.svg')",
+                "company-myloc-construction": "url('/src/assets/svg/aboutMe/companys/MylocConstruction.svg')",
+                "projects-axis": "url('/src/assets/svg/aboutMe/companys/Axis.svg')",
+                "projects-kjell&company": "url('/src/assets/svg/aboutMe/companys/Kjell.svg')",
+
+                // academic
+                "projects-lund": "url('/src/assets/svg/aboutMe/academic/Lund.svg')",
+                "projects-cyber": "url('/src/assets/svg/aboutMe/academic/Cyber.svg')",
                 
             },
             backgroundPosition: {
@@ -46,7 +52,7 @@ module.exports = {
             backgroundSize: {
                 "fit-hero": "contain, contain, auto, auto",
                 "fit-about": "contain, contain",
-                "fit-projects": "contain, 10rem",
+                "fit-projects": "contain, contain",
             },
             colors: {
                 "hero-white": "#FFFFFF",
@@ -58,6 +64,10 @@ module.exports = {
                 "hero-text": "#565656",
                 "fade-t": "rgba(255, 117, 73, 1)",
                 "fade-b": "rgba(255, 117, 73, 0.08)",
+                "project-fade-t": "rgba(176, 144, 158, 1)",
+                "project-fade-b": "rgba(255, 117, 73, 0.2)",
+                "name-fade-t": "rgba(255, 0, 0, 1)",
+                "name-fade-b": "rgba(255, 141, 36, 0.5)",
                 "projects-end": "#C06767",
             },
             fontFamily: {
@@ -71,9 +81,3 @@ module.exports = {
     plugins: [],
 };
 
-// For hero Text
-// font-family: 'Tauri';
-// line-height: 120px;
-// background: linear-gradient(180deg, rgba(255, 0, 0, 0.75) 32.92%, rgba(255, 141, 36, 0.75) 108.44%);
-// -webkit-background-clip: text;
-// -webkit-text-fill-color: transparent;

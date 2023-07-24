@@ -14,13 +14,37 @@ const HomeContainer = (props, ref) => {
                 </div>
 
                 <div className="select-none relative left-[210px] text-hero-text  whitespace-nowrap font-mono">
-                    <div className="absolute top-[146px] left-[678px] text-[4rem]">
+                    <div className="
+                        absolute top-[146px] left-[678px] text-[4rem]
+                        bg-gradient-to-b 
+                        from-name-fade-t 
+                        to-name-fade-b
+                        inline-block 
+                        text-transparent 
+                        bg-clip-text
+                    ">
                         Welcome
                     </div>
-                    <div className="absolute top-[200px] left-[632px] text-[6rem]">
+                    <div className="
+                        absolute top-[200px] left-[632px] text-[6rem]
+                        bg-gradient-to-b 
+                        from-name-fade-t 
+                        to-name-fade-b
+                        inline-block 
+                        text-transparent 
+                        bg-clip-text
+                    ">
                         I'm Ernst Padron,
                     </div>
-                    <div className="absolute top-[286px] left-[744px] text-[6rem]">
+                    <div className="
+                        absolute top-[286px] left-[744px] text-[6rem]
+                        bg-gradient-to-b 
+                        from-name-fade-t 
+                        to-name-fade-b
+                        inline-block 
+                        text-transparent 
+                        bg-clip-text
+                    ">
                         Programmer
                     </div>
                 </div>
