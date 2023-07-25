@@ -14,7 +14,9 @@ const ProgrammingLanguages = () => {
             p-10
             "
         >
-            <div>Programming Languages</div>
+            <h1 className="text-[2rem]">
+                Programming Languages
+            </h1>
             <ul>
                 <li>Python</li>
                 <li>Java</li>

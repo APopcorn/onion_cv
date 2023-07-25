@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectShowcase = ({ projectTitle, img }) => {
+const FliptProjectShowcase = ({ projectTitle, img }) => {
     return (
         <div className="
             rounded-[2rem] 
@@ -20,7 +20,7 @@ const ProjectShowcase = ({ projectTitle, img }) => {
             "
         >   
             <div className="
-                col-start-1	col-end-3
+                col-start-4	col-end-6
                 row-start-1	row-end-3
                 m-10
             ">
@@ -30,7 +30,7 @@ const ProjectShowcase = ({ projectTitle, img }) => {
             <div className="
                 bg-white
                 rounded-[2rem]
-                col-start-3	col-end-6
+                col-start-1	col-end-4
                 row-start-1	row-end-3
                 m-10
                 ">
@@ -41,4 +41,4 @@ const ProjectShowcase = ({ projectTitle, img }) => {
     );
 };
 
-export default ProjectShowcase;
+export default FliptProjectShowcase;

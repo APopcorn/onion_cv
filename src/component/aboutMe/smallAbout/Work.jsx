@@ -18,11 +18,13 @@ const Work = () => {
                 grid-rows-4
                 h-[90%]
                 items-center
+                
             ">
                 <h1 className="
                     text-[3rem]
                     col-start-3	col-end-4
                     row-start-1	row-end-2
+                    justify-items-center // obs
                     ">
                     Work
                 </h1>
@@ -31,7 +33,7 @@ const Work = () => {
                     <div className="text-[1.25rem] pl-5 col-start-2 col-end-6 row-start-2 row-end-3">
                         Axis PTZ-fw <br />
                         Part-time worker <br />
-                        2022 - now  justify-items: center;<br />
+                        2022 - now;<br />
 
                         Working in the student task fores doing varies task 
                     </div>

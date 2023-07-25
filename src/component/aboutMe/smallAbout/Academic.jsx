@@ -14,24 +14,26 @@ const Academic = () => {
                 p-10
             "
         >
-            <div>Academic</div>
+            <h1 className="text-[2rem]">
+                Academic
+            </h1>
+            <div className="flex gap-4 mb-4 mt-4"> 
+                <img className="" src="src\assets\svg\aboutMe\academic\Lund.svg" alt="Lund" />
                 <div>
-                    <div>img</div>
-                    <div>
-                        Academic Faculty of Engineering (LTH), Lund University studying Computer science
-
-                        2021 - present 
-                    </div>
+                    Academic Faculty of Engineering (LTH), Lund University studying Computer science
+                    <br />
+                    2021 - present 
                 </div>
+            </div>
+            <div className="flex gap-4">
+                <img className="" src="src\assets\svg\aboutMe\academic\Cyber.svg" alt="Cyber" />
                 <div>
-                    <div>img</div>
-                    <div>
-                        Cyber Gymnasiet
-                        Nature science (eng?)  
+                    Cyber Gymnasiet <br />
+                    Nature science (eng?) <br />
 
-                        2017 - 2020 
-                    </div>
+                    2017 - 2020 
                 </div>
+            </div>
         </div>
     );
 };
